@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T00:26:35+09:00",
+  "generatedAt": "2026-11-24T08:43:56+09:00",
   "companies": [
     {
       "id": 1,
@@ -559,8 +559,39 @@
       "careersSite": "https://www.metacareers.com",
       "notes": "AI注目株として追加（2026-11-23 本人希望）。",
       "logo": "logos/meta.svg",
-      "runs": [],
-      "signals": []
+      "runs": [
+        {
+          "id": 8,
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-11-24",
+          "engine": "last30days v4.4.0（会社モード）",
+          "jobsOpen": null,
+          "jobsNew": null,
+          "patentsPublished": 19,
+          "patentsGranted": 26,
+          "summary": "シグナル1件（特許1・求人0）。特許：偏光カメラでロボットの指先にかかる力を読み取る出願 US20260336100（2026-10-29公開、Meta Platforms Technologies, LLC）。Meta系の既知の触覚センサーはカメラ式で偏光方式ではなく、同出願の報道は検索範囲で見つからなかった。求人はMetaの求人サイトが自動収集を禁止しており判定不能（0件取得、「動きなし」ではない）。特許は出願19件・登録26件のうち米国初公開13件を精査。",
+          "caveats": "求人は判定不能：Metaの求人サイトが自動収集を禁止し1件も読めていない。特許公開は出願から約18か月後で、2025年4月時点の取り組みを示すもので製品化・事業化の決定ではない。「報道なし」は今回のWeb検索範囲での結果。Redditは403で一部のみ、YouTube未使用、Xは指示により不使用。"
+        }
+      ],
+      "signals": [
+        {
+          "id": 23,
+          "runId": 8,
+          "kind": "patent",
+          "title": "偏光カメラでロボットの指先の力を読み取る特許出願",
+          "detail": "特許出願 US20260336100「FORCE SENSING AND BIREFRINGENT IMAGING」（2026-10-29公開、2026年4月出願・優先日2025-04-29、出願人 Meta Platforms Technologies, LLC）。偏光光を当てた変形しやすい複屈折層を偏光カメラで撮影し、ロボットの指先にかかる力を画像として読み取る構成。Meta系で公開されている触覚センサー（DIGIT Pinki、Digit 360）はカメラ式で偏光方式ではなく、この出願の報道は検索範囲で見つからなかった。",
+          "implication": "SNS・広告・XRが中心のMeta（Reality Labs系子会社）がロボットの指先そのものを請求している点が通常と異なり、ロボットハンドの触覚について研究段階を超えて権利化を検討していた可能性を示唆する。ただし出願は製品化・事業化の決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "米国特許出願 US20260336100",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260336100",
+          "sourceDate": "2026-10-29",
+          "location": null,
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        }
+      ]
     },
     {
       "id": 10,
@@ -570,8 +601,73 @@
       "careersSite": "https://www.google.com/about/careers/",
       "notes": "AI注目株として追加（2026-11-23）。特許はGoogle LLC名義が多い。",
       "logo": "logos/alphabet.svg",
-      "runs": [],
-      "signals": []
+      "runs": [
+        {
+          "id": 11,
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-11-24",
+          "engine": "last30days v4.4.0（会社モード）",
+          "jobsOpen": 2943,
+          "jobsNew": null,
+          "patentsPublished": 232,
+          "patentsGranted": 193,
+          "summary": "シグナル3件（求人2・特許1）。求人：microLED子会社Raxiumが自社半導体工場を前提に試験体制を広げる募集2件（表示部を自前で作る路線の継続を示唆、募集自体の報道なし）。求人：中性原子方式量子コンピュータの制御電子回路の技術者（方式自体は2026年3月に公表済みで、計画が採用段階に入った証拠）。特許：会議テーブル上にパラボラ形音響ドームを付ける家具の出願 US20260354574（2026-11-12公開、報道・一致製品なし）。特許は公開232件・登録193件・米国初公開161件。求人は掲載2,943件のうち500行を読込。",
+          "caveats": "求人ボードは掲載日を出さないため直近30日の新規には絞れていない。特許は2025年5月前後の取り組みを映す。募集・出願は採用・製品化の決定ではない。「報道なし」は確認範囲での結果。Redditは403で一部失敗、X不使用。"
+        }
+      ],
+      "signals": [
+        {
+          "id": 33,
+          "runId": 11,
+          "kind": "patent",
+          "title": "会議テーブルの上にパラボラ形の音響ドームを付ける家具の特許出願",
+          "detail": "特許出願 US20260354574「Collaboration Dome System」（2026-11-12公開、2025年5月出願、出願人 Google LLC）。テーブルに立てた支柱の上にドームを付け、その中のスピーカーとパラボラ形反射板で音をテーブルの天板に向けて反射させる仕組み。この出願を取り上げた報道も、一致するGoogle製品も見つからなかった。",
+          "implication": "会議参加者の周りにだけ音を届ける、家具と一体になった会議用ハードウェア（Google Meet用会議室機器、または自社オフィス向け設備）を検討していた可能性がある。Googleは家具をあまり手がけない会社で「らしくない」出願。出願は製品化の決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "米国特許出願 US20260354574",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260354574",
+          "sourceDate": "2026-11-12",
+          "location": null,
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 32,
+          "runId": 11,
+          "kind": "job",
+          "title": "microLED子会社Raxiumが自社半導体工場を前提に試験体制を広げる募集2件",
+          "detail": "Raxium（米カリフォルニア州フリーモント、Googleが2022年に買収したmicroLED企業）が Staff Software Engineer, Display Test と Senior Test Engineer, CMOS Backplane を募集。募集要項には「最先端の化合物半導体工場（state-of-the-art compound semiconductor fab）」を持ち規模を広げる前提で、専用計測ハードウェアや試験ソフトを作り直すとある。この2件の募集を取り上げた報道は見つからなかった。掲載日はボードに表示なし。",
+          "implication": "AIグラスの表示部に他社microLEDを使う可能性が業界メディアで報じられる中でも、自社工場で量産試験の体制を広げているのなら、表示部を自前で作る路線を続けていると読める。求人は採用・事業化の決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "Google Careers（Raxium、Display Test／CMOS Backplaneの2職種）",
+          "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/75134352165348038-staff-software-engineer-display-test-raxium",
+          "sourceDate": null,
+          "location": "米国・カリフォルニア州フリーモント",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 29,
+          "runId": 11,
+          "kind": "job",
+          "title": "中性原子方式の量子コンピュータで制御電子回路の技術者を募集（公表済み計画の実行段階）",
+          "detail": "Control Electronics Engineer, Neutral Atoms, Quantum AI（米コロラド州ボルダー）。中性原子方式の量子コンピュータを制御・計測する仕組みの基板設計を担当。Quantum AIチーム名義の職種は求人ボードに6件。中性原子部門をボルダーに作ることは2026年3月にGoogleが公表済みで、この求人は未発表の動きではない。",
+          "implication": "Googleの量子の主力は超伝導方式で、2つ目の方式について研究者を集める段階から実機の制御電子回路を設計する段階に進んでいる可能性を示す、公表済み計画が採用として進んでいる証拠。",
+          "verdict": "announced",
+          "highlight": false,
+          "sourceLabel": "Google Careers（Quantum AI、Neutral Atoms）",
+          "sourceUrl": "https://www.google.com/about/careers/applications/jobs/results/138710897622164166-control-electronics-engineer-neutral-atoms-quantum-ai",
+          "sourceDate": null,
+          "location": "米国・コロラド州ボルダー",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        }
+      ]
     },
     {
       "id": 11,
@@ -581,8 +677,73 @@
       "careersSite": null,
       "notes": "AI注目株として追加（2026-11-23）。株価ウォッチの予想レビューでも追跡中。",
       "logo": "logos/nvidia.svg",
-      "runs": [],
-      "signals": []
+      "runs": [
+        {
+          "id": 9,
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-11-24",
+          "engine": "last30days v4.4.0（会社モード）",
+          "jobsOpen": 2018,
+          "jobsNew": null,
+          "patentsPublished": 165,
+          "patentsGranted": 108,
+          "summary": "シグナル3件（求人2・特許1）。求人：サービス部門に貿易コンプライアンス部長職（修理・部品の国境移動まで輸出管理を固める可能性）。求人クラスタ：NVISで「初回導入（First Time Deployment）」専門職4件（検証／HW・MEP／InfiniBand／Spectrum-X、Vera Rubin出荷開始と時期が重なる）。特許：光と無線を切り替えるデュアルモードNIC出願 US20260362038（Mellanox名義、2026-11-12公開、同社既知領域から外れ報道・製品なし）。特許は公開165件・登録108件・米国初公開104件。求人は掲載2,018件以上。",
+          "caveats": "求人はダイジェスト40件すべて職務記述が取れず職種名だけで判断、掲載日も取れないため「今月増えた」とは言えない。特許は2025年春出願中心で今月の判断ではない。背景のCEO復帰（11/23 CNBC見出し）と中国向け120億ドルの件はHN・Reddit発で未確認。シグナル2は報道有無を検索していない。X・YouTube不使用。"
+        }
+      ],
+      "signals": [
+        {
+          "id": 35,
+          "runId": 9,
+          "kind": "patent",
+          "title": "光と無線を切り替えるデュアルモードNICの特許出願（Mellanox名義）",
+          "detail": "特許出願 US20260362038「DUAL-MODE NETWORK INTERFACE CONTROLLER」（2026-11-12公開、2025年5月出願、出願人 Mellanox Technologies, Ltd.）。1枚のネットワークカードに光インターフェースと無線インターフェースの両方を載せ、機械学習モデルが通信負荷と媒体の状態を見て切り替える構成。この出願を扱った記事も当たる製品の発表も、検索範囲で見つからなかった。",
+          "implication": "NVIDIAのNIC製品はケーブル（光・銅）が前提で、データセンターのNICに無線を組み込む設計は既知の領域から外れる。ラック内・ラック間の一部配線の無線置換や障害時の予備経路の研究を2025年春時点で進めていた可能性がある。出願は製品化の決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "米国特許出願 US20260362038",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260362038",
+          "sourceDate": "2026-11-12",
+          "location": null,
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 34,
+          "runId": 9,
+          "kind": "job",
+          "title": "NVISで「初回導入」専門の現地チーム4職種をまとめて募集",
+          "detail": "NVIS（NVIDIA Infrastructure Specialists）で、初回導入（First Time Deployment）に特化したシニア・ソリューションアーキテクトを4職種募集（検証、ハードウェア／機械・電気・配管（HW/MEP）、InfiniBand、Spectrum-X）。職務記述は取得できず職種名だけで判断。報道の有無は検索していないため「未報道」とは言えない。NVISという部門自体は公知。",
+          "implication": "顧客のデータセンターで新しいラック世代を最初に立ち上げる工程を専任チームとして切り出している可能性があり、MEPまで含む点は水冷ラックの設置を自社人員で支える必要の増加を示唆する。Vera Rubinの出荷開始と時期が重なる。求人は採用・決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "NVIDIA求人（Workday、First Time Deployment Validationほか4職種）",
+          "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-Solutions-Architect--First-Time-Deployment-Validation---NVIS_JR2021226",
+          "sourceDate": null,
+          "location": "米国・サンタクララほか",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 31,
+          "runId": 9,
+          "kind": "job",
+          "title": "サービス部門に貿易コンプライアンス担当の部長職",
+          "detail": "Director, Service Operations Trade Compliance Operations（サンタクララ）。エンジンが「他の職種名にほとんど出てこないチームの長（new-team lead）」と判定。職務記述は取得できず職種名だけで判断した。この求人そのものを報じた記事は見つからなかったが、サービス組織の拡充自体は以前から見えている流れ。背景として前提にした「中国向け供給の説明要求」はHN・Reddit発で未確認。",
+          "implication": "修理・交換部品・返品の流れ（サービスのサプライチェーン）を輸出管理の観点で専任の部長が見る体制を作ろうとしている可能性がある。販売時だけでなく保守部品の国境移動まで管理を固める動きとも読めるが、確度は低め。",
+          "verdict": "reference",
+          "highlight": false,
+          "sourceLabel": "NVIDIA求人（Workday、掲載日は取得できず）",
+          "sourceUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Director--Service-Operations-Trade-Compliance-Operations_JR2030027",
+          "sourceDate": null,
+          "location": "米国・サンタクララ",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        }
+      ]
     },
     {
       "id": 12,
@@ -592,8 +753,90 @@
       "careersSite": null,
       "notes": "AI注目株（HBM・メモリ）として追加（2026-11-23）。株価ウォッチの予想レビューでも追跡中。",
       "logo": null,
-      "runs": [],
-      "signals": []
+      "runs": [
+        {
+          "id": 14,
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-11-24",
+          "engine": "last30days v4.4.0 会社モード",
+          "jobsOpen": 1999,
+          "jobsNew": null,
+          "patentsPublished": 200,
+          "patentsGranted": 156,
+          "summary": "初回スキャン（再々実行で完了）。シグナル4件：Micron Research Labsの幹部ポスト新設（求人・組織は発表済み）、メモリスタのクロスバー配列でAIモデルをアナログ計算する特許（本業外・報道なし）、3D DRAMでデコーダをセル配列上に置く特許（方向性は公表済み）、「Industrial and Physical AI」部門下で工場向けAIアプリを内製する組織（求人・参考）。strongに当たるものは0件。特許の大半は本業（DRAM/NAND/HBM）の範囲内。",
+          "caveats": "求人は採用の発表ではなく、特許出願は公開時点で約18か月前の出願分（シグナル2の優先日は2023年）。Xは未設定で未使用。エンジンの実走査窓は2026-10-24〜11-23で11-24当日分は未確認。求人ボードは1,999件以上の一部のみ読了（ダイジェスト30件、職務記述取得24件）。初回実行で求人レーンが時間切れとなり求人専用で再実行して取得。Redditは接続エラーで一部のみ。出典レポート：workspace/last30days-trial/micron-company-2026-11-24.md"
+        }
+      ],
+      "signals": [
+        {
+          "id": 42,
+          "runId": 14,
+          "kind": "patent",
+          "title": "メモリスタのクロスバー配列でAIモデルをアナログ計算する設計（2件・1ファミリー）",
+          "detail": "特許出願2件（20260368474／20260368505、2026-11-19公開、出願2024-06-04、最先優先日2023-06-09、Micron Technology, Inc.）を1ファミリーとして集約。ニューラルネットの重みをクロスバー配列に並べたメモリスタのプログラム電圧番号に置き換えて量子化し、コンダクタンスとして書き込んで配列上で積和演算をアナログ実行する。製造ばらつきへの対処法と、重み分布の予測モデルで電圧リストを決める方法をそれぞれ記載。",
+          "implication": "「データを保存するメモリ」が製品のMicronが、メモリ素子そのものでAI推論を計算するアナログ・インメモリ計算（本業外）に取り組んでいた可能性。メモリセル技術をAIアクセラレータ側へ広げる研究の手がかり。Micronのメモリスタ・アナログ計算を扱った報道や製品発表は見つからなかった。優先日が2023年と古く1ファミリーのみのため medium。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "USPTO特許公開 20260368474（Micron Technology, Inc.）",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260368474",
+          "sourceDate": "2026-11-19公開",
+          "location": "出願人：Micron Technology, Inc.（米国アイダホ州ボイシ）",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 41,
+          "runId": 14,
+          "kind": "job",
+          "title": "「Industrial and Physical AI」部門の下で、工場向けAIアプリを内製する組織",
+          "detail": "Sr Manager, AI Engineering, SMAI（台中Fab 16、2026-11-23掲載）。「Industrial and Physical AI Sr Director」の直属でフルスタックAIエンジニアのチームを率い、世界中のファブと組立・テスト工場向けに本番運用のAIアプリを作る。範囲はデータパイプライン、モデル学習、Web・モバイル画面、API、オンプレ・エッジ配備まで。同系のSMAI求人が台中・ボイシにもある。",
+          "implication": "「Physical AI」名の部門の下に製造現場向けソフトウェア製品チームを置き、工場運営のAI化を内製で持つ方針の表れの可能性。ただしファブのデジタルツイン等の「Physical AI」の取り組みは公表済みで方向性は公知のため reference 扱い。部門名自体を報じた記事は見つからなかった。",
+          "verdict": "reference",
+          "highlight": false,
+          "sourceLabel": "Micron求人：Sr Manager, AI Engineering, SMAI",
+          "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Taichung---Fab-16-Taiwan/Sr-Manager--AI-Engineering--SMAI_JR118546",
+          "sourceDate": "2026-11-23掲載",
+          "location": "台湾・台中（Fab 16）",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 43,
+          "runId": 14,
+          "kind": "patent",
+          "title": "3D DRAMで、行・列デコーダをセル配列の上に載せる構造",
+          "detail": "特許出願 DECODERS POSITIONED ABOVE ARRAY IN 3D-DRAM（公開番号20260369316、2026-11-19公開、出願2026-03-04、最先優先日2025-03-24）。セルを縦に積んだ3D DRAMで、3Dセル配列「パッチ」の上の領域に行デコーダ・列デコーダを置く構造。グローバル型とローカル型の2通りの配置を記載。",
+          "implication": "3D DRAMで周辺回路をセル配列上に積みチップ面積を減らす設計を2025年3月時点で具体化していたことを示す。ただし3D DRAMの方向性自体は2026年10月の技術説明で公表済み（4F²見送り・6F²延長と3D DRAMの方針）ため announced 扱い。この出願自体の記事は見つからなかった。",
+          "verdict": "announced",
+          "highlight": false,
+          "sourceLabel": "USPTO特許公開 20260369316（Micron Technology, Inc.）",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260369316",
+          "sourceDate": "2026-11-19公開",
+          "location": "出願人：Micron Technology, Inc.（米国アイダホ州ボイシ）",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 40,
+          "runId": 14,
+          "kind": "job",
+          "title": "Micron Research Labsの幹部ポスト新設（首席科学者・米国研究提携・戦略統括）",
+          "detail": "Micron Research Labs（MRL）名義の幹部求人クラスタ（名前付きチームで4職種）。Chief Scientist & Vice President, Research（副社長級の首席科学者）、Sr Director, US Partnerships（大学・国立研究所・スタートアップ・業界コンソーシアムとの提携を開発・管理、MRL経営チームの一員）、Sr. Director, Strategy & Business Operations（MRLの戦略を実行に落とす、所長直属に近い位置づけ）。後の2件は2026-11-19掲載。",
+          "implication": "メモリ量産の技術開発とは別に、長期研究組織に首席科学者と外部連携の窓口を置く体制が読み取れる。ポストDRAM・NANDやパッケージングの探索を社外連携へ広げる動きとも解釈できる。ただしMRL自体は2026-09-15に所長就任と100億ドル規模の投資が発表済みのため announced 扱い。首席科学者ポストの募集自体の報道は見つからなかった。",
+          "verdict": "announced",
+          "highlight": false,
+          "sourceLabel": "Micron求人：Chief Scientist & VP, Research - Micron Research Labs（ほか2件）",
+          "sourceUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Chief-Scientist---Vice-President--Research---Micron-Research-Labs_JR118344",
+          "sourceDate": "2026-11-19掲載（関連2件）",
+          "location": "米国アイダホ州ボイシ／カリフォルニア州サンノゼ",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        }
+      ]
     },
     {
       "id": 13,
@@ -603,8 +846,90 @@
       "careersSite": null,
       "notes": "AI注目株（カスタムAIチップ・ネットワーク）として追加（2026-11-23）。",
       "logo": "logos/broadcom.svg",
-      "runs": [],
-      "signals": []
+      "runs": [
+        {
+          "id": 13,
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-11-24",
+          "engine": "last30days v4.4.0 会社モード",
+          "jobsOpen": 450,
+          "jobsNew": null,
+          "patentsPublished": 24,
+          "patentsGranted": 30,
+          "summary": "初回スキャン（再々実行で完了）。シグナル4件：海外に数十億ドル規模の先端パッケージング工場を更地から建てる統括職（求人）、ガラスパネル上にチップを直接並べる「システム・オン・パネル」特許、Wi-Fi 8のアクセスポイント間協調ビームフォーミング特許（発表済み）、チップ設計社内にLLMマルチエージェント基盤を作る職（求人・参考）。特許の大半は本業（ネットワーク／仮想化／RF）の範囲内。",
+          "caveats": "求人は採用の発表ではなく、特許出願は公開時点で約18か月前の出願分。Xは未設定で未使用。実データ期間は2026-10-24〜11-23（エンジン取得分）で、2026-11-24付けの特許登録分は未確認。求人ボード450件のうち読んだのは30件（全文精読4件）。特許名義はAvago系とVMware LLCで走査（Broadcom名義の該当は0件）。Redditは403で取得失敗。出典レポート：workspace/last30days-trial/broadcom-company-2026-11-24.md"
+        }
+      ],
+      "signals": [
+        {
+          "id": 38,
+          "runId": 13,
+          "kind": "patent",
+          "title": "ガラスパネル上にチップを直接並べる「システム・オン・パネル」",
+          "detail": "特許出願 SYSTEM ON PANEL DEVICE（公開番号20260344429、2026-10-29公開、2025-04-29出願、Avago Technologies International Sales Pte. Limited）。ガラスパネル等のパネル基板上に再配線層を作り、複数のチップ（ダイ）とコネクタを直接載せ、パネル1枚を1つのシステムとして扱う構成。第1クレームは「パネル基板、配線層、その上の複数ダイ、配線層上のコネクタ」。CPC分類 H10W40/40、H05K1/141。",
+          "implication": "同社の大型パッケージ（3.5D XDSiP等）より一段大きく、パネル1枚単位でAI向けシステムを組む設計を2025年春時点で検討していた可能性。先端パッケージング工場の求人や、報道済みのシンガポール合弁（パネル単位パッケージング向け再配線層技術）と方向が重なる。この出願の報道も該当製品の発表も見つからなかった（確認した範囲で）。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "USPTO特許公開 20260344429（Avago Technologies International Sales）",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260344429",
+          "sourceDate": "2026-10-29公開",
+          "location": "出願人所在地：シンガポール",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 37,
+          "runId": 13,
+          "kind": "job",
+          "title": "海外で「数十億ドル規模」の先端パッケージング工場を更地から建てる統括職",
+          "detail": "Staff Program Manager - Advanced Packaging Technology（アーバイン勤務）。「超大規模な先端パッケージング製造プロジェクト」を更地からの工場建設（greenfield）、装置調達、量産立ち上げまで統括する職。EPC請負業者の管理、クリーンルーム建設の現地法規対応、異種集積向け装置の輸入・立ち上げ、「数十億ドル規模の設備投資・運営費の予算管理」が職務。要件に基板と光電融合実装（CPO）の知見、「大規模な海外の産業プロジェクト」経験。年収レンジ109,700〜175,500ドル。",
+          "implication": "主力チップ製造を外部に任せるBroadcomが、自社側で先端パッケージングの量産工場を米国外に新設する計画を持つ可能性を示唆する。報道済みのシンガポールでのPowertechとの合弁会社XCIP（総投資見込み56.6億ドルとの報道）の建設を担う職である可能性が高いが、求人は建設地を書いておらず結びつきは推測。この求人自体の報道は見つからなかった。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "Broadcom求人：Staff Program Manager - Advanced Packaging Technology",
+          "sourceUrl": "https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-2/Staff-Program-Manager---Advanced-Packaging-Technology_R026235",
+          "sourceDate": "2026-06-15掲載",
+          "location": "米国カリフォルニア州アーバイン（建設地は海外とだけ記載）",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 39,
+          "runId": 13,
+          "kind": "job",
+          "title": "チップ設計の社内にLLMのマルチエージェント基盤を作る職",
+          "detail": "Infrastructure AI/ML Engineer for Memory Design, Characterization, and Yield Optimization（Central Engineering Group）。組み込みメモリの設計・評価・歩留まり解析を分散型マルチエージェントAIで自動化する基盤を設計する職。要件にLLMエージェントとEDA（Synopsys、Cadence、Siemens）の連携、MCPサーバーの構築、LangGraph、「Agent Skills」としての部品化が名指しされている。経験15年以上。",
+          "implication": "自社のチップ設計工程にLLMエージェントを本格的に組み込む動き。同グループの「Agentic AI Architect」求人も見つかり、単発ではなく部門として設計工程のAI化を進めている可能性がある。ただし業界全体の流れでもあり reference 扱い。Broadcomの取り組みとして報じた記事は見つからなかった（確認した範囲で）。",
+          "verdict": "reference",
+          "highlight": false,
+          "sourceLabel": "Broadcom求人：Infrastructure AI/ML Engineer for Memory Design",
+          "sourceUrl": "https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-TX-Austin---River-Place-B7/Infrastructure-AI-ML-Engineer-for-Memory-Design--Characterization--and-Yield-Optimization_R027297",
+          "sourceDate": "2026-10-14掲載",
+          "location": "米国テキサス州オースティン ほか計4拠点",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 36,
+          "runId": 13,
+          "kind": "patent",
+          "title": "Wi-Fi 8のアクセスポイント間「協調ビームフォーミング」（発明ファミリー4件）",
+          "detail": "特許出願4件（20260361339／20260361340／20260361341／20260361349、2026-11-12公開、優先日2025-05-08、Avago名義）を1つの発明ファミリーとして1件に集約。複数のアクセスポイントがフレーム交換でビームフォーミングの条件と回数を取り決め、端末向け送信を同一セッション内で協調して行う手順（回数の交渉、2者間・3者間ハンドシェイク、トリガーフレーム交互送信）。",
+          "implication": "Wi-Fi 8（IEEE 802.11bn）の目玉機能である複数AP協調（Co-BF）の実装手順を押さえる出願。ただし中身は2025年10月のWi-Fi 8チップ発表（BCM43840等、Co-BF明記）で公表済みのため announced 扱い。一般消費者向け製品は未出荷。",
+          "verdict": "announced",
+          "highlight": false,
+          "sourceLabel": "USPTO特許公開 20260361340（代表例、Avago Technologies International Sales）",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260361340",
+          "sourceDate": "2026-11-12公開",
+          "location": "出願人所在地：シンガポール",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        }
+      ]
     },
     {
       "id": 14,
@@ -614,8 +939,73 @@
       "careersSite": "https://www.anthropic.com/careers",
       "notes": "AI注目企業として追加（2026-11-23 本人希望）。未上場のためティッカーなし。特許・求人で追う。",
       "logo": "logos/anthropic.svg",
-      "runs": [],
-      "signals": []
+      "runs": [
+        {
+          "id": 10,
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-11-24",
+          "engine": "last30days v4.4.0（会社モード）",
+          "jobsOpen": 634,
+          "jobsNew": 158,
+          "patentsPublished": 0,
+          "patentsGranted": 0,
+          "summary": "シグナル2件（いずれも求人、特許0件）＋参考1件。求人1：データセンター警備用のドローン・地上ロボット・対ドローン検知を担当するAutonomous Systems Security Engineer（2026-10-27掲載、報道なし）。求人2：遺伝子医薬のCMC＆製造リード（2026-11-13掲載、同日に遺伝子医薬TPMも掲載、報道なし）。参考：データセンター立地先の地域対応チーム拡大（既報のため参考）。米国特許はAnthropic名義で出願・登録とも0件（検索は正常完了）。求人は掲載634件・期間内新規158件・本文精読40件。",
+          "caveats": "求人は採用・会社の決定ではない。特許0件は期間内公開分のみが対象で、公開まで約18か月のため最近の動きは反映されにくい。「報道なし」はWeb検索1-2回の範囲。Redditは403で一部のみ、YouTube未設定、X不使用。"
+        }
+      ],
+      "signals": [
+        {
+          "id": 27,
+          "runId": 10,
+          "kind": "job",
+          "title": "データセンター警備にドローン・地上ロボット・対ドローン検知を担当するエンジニアを募集",
+          "detail": "Autonomous Systems Security Engineer（Security部門、2026-10-27掲載）。巡回・点検・機材運搬に使うドローン、地上ロボット、自動走行車と、拠点上空・周辺に無断で接近するものを検知する仕組みを担当し、機体・センサーの選定や運用体制づくりまで受け持つ。Anthropicが拠点にドローンや対ドローン設備を導入したという報道は検索範囲で見つからなかった。",
+          "implication": "自社で持つ・借りるデータセンターが増えるのに合わせ、物理的な警備を人手から自動化へ移し、上空の脅威まで守備範囲に入れる準備をしている可能性がある。求人は採用・決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "Anthropic求人（Greenhouse、2026-10-27掲載）",
+          "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5462972008",
+          "sourceDate": "2026-10-27",
+          "location": "サンフランシスコ（リモート可・出張あり）",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 26,
+          "runId": 10,
+          "kind": "job",
+          "title": "遺伝子医薬のCMC（製造・品質管理）責任者を募集",
+          "detail": "CMC & Manufacturing Lead, Life Sciences（2026-11-13掲載、米国リモート可）。遺伝子医薬の技術全般でCMC戦略を導き外部パートナーと協働する役割。同じ日に遺伝子医薬プログラムの取りまとめ役（Technical Program Manager, Life Sciences Research (Genetic Medicine)）も掲載。life sciencesチームは17件中6件が期間内の新規。これを報じる記事は検索範囲で見つからなかった。",
+          "implication": "AI企業が医薬品製造の専門家を自社に置くのは本業から外れる動きで、Claudeを研究支援に使うだけでなく、希少疾患向け遺伝子医薬を外部パートナーと組んで開発・製造段階まで進める体制を作っている可能性がある。求人は採用・決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "Anthropic求人（Greenhouse、2026-11-13掲載）",
+          "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5481396008",
+          "sourceDate": "2026-11-13",
+          "location": null,
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 24,
+          "runId": 10,
+          "kind": "job",
+          "title": "データセンター立地先の地域対応チームを拡大（既報のため参考）",
+          "detail": "Head of Community Relations, Compute（2026-11-19掲載）ほか、カナダ・アルバータ、West Texas、Australiaの地域担当を募集。全拠点の地域貢献プログラムを受け持つ職務。アルバータの求人はBetaKitが既に報じており、全拠点で地域貢献協定を結ぶ方針もAnthropic自身が公表済みのため「未発表」とは扱わない。",
+          "implication": "データセンターの電源構成への批判が強まる中で、立地先の住民や自治体への対応を組織として厚くしていると読める。公表済み方針の実行段階を示す参考情報。",
+          "verdict": "reference",
+          "highlight": false,
+          "sourceLabel": "Anthropic求人（Greenhouse、2026-11-19掲載）",
+          "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456315008",
+          "sourceDate": "2026-11-19",
+          "location": null,
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        }
+      ]
     },
     {
       "id": 15,
@@ -625,8 +1015,73 @@
       "careersSite": "https://careers.microsoft.com",
       "notes": "AI注目株として追加（2026-11-23 本人希望）。",
       "logo": "logos/microsoft.svg",
-      "runs": [],
-      "signals": []
+      "runs": [
+        {
+          "id": 12,
+          "periodStart": "2026-10-25",
+          "periodEnd": "2026-11-24",
+          "engine": "last30days v4.4.0（会社モード）",
+          "jobsOpen": 2306,
+          "jobsNew": null,
+          "patentsPublished": 193,
+          "patentsGranted": 149,
+          "summary": "シグナル3件（特許1・求人2）。特許：コントローラーのスティックをセンサーごと交換できるモジュール US20260362619（2026-11-12公開、Xbox純正で同形の製品・報道なし、今回最強）。求人：Azureのネットワーク監視データ基盤のプリンシパル職（11/12-13のM365世界規模障害と結びつく）と、Agent 365のゲートウェイチーム増員（Agent 365自体は発表済み）。特許は公開193件・登録149件・米国初公開131件。求人は掲載2,306件のうち最新10件のみ読込。",
+          "caveats": "求人は掲載総数の約0.4%（最新10件）しか読めておらず投稿日も取れないため全体傾向ではない。特許は2025年5-6月出願で今月の決定ではない。「報道なし」は今回の検索範囲での結果。Redditは403で取得失敗、Xは不使用。"
+        }
+      ],
+      "signals": [
+        {
+          "id": 25,
+          "runId": 12,
+          "kind": "patent",
+          "title": "ゲームコントローラーのスティックをセンサーごと交換できるモジュールの特許出願",
+          "detail": "公開出願 US20260362619「REPLACEABLE INPUT MODULE」（2026-11-12公開、2025年5月出願）。コントロールスティックとトランスデューサ（センサー部）を収めた筐体を入力装置に差し込み、位置決めピンと締結具で固定して取り外せる構造。従来のMicrosoft特許はスティックのキャップだけを替える設計だった。Xbox純正でこの形の製品・報道は検索範囲で見つからなかった。",
+          "implication": "スティックのドリフト故障を本体ごと買い替えずに直せるコントローラー、または交換部品の販売につながりうる設計。ただし出願は製品化の決定ではない。",
+          "verdict": "strong",
+          "highlight": true,
+          "sourceLabel": "米国特許出願 US20260362619",
+          "sourceUrl": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260362619",
+          "sourceDate": "2026-11-12",
+          "location": null,
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 30,
+          "runId": 12,
+          "kind": "job",
+          "title": "Azureのネットワーク監視データ基盤を率いるプリンシパル職を募集",
+          "detail": "Principal Software Engineer（米国・複数拠点）。Azureのネットワーク監視データ（テレメトリ）を信頼できる情報に変え、新たな問題を検知して運用判断を速くする基盤の設計を率いる役割。この求人自体への報道は見つからなかった。求人の投稿日はボードに無く、障害後に出されたかは不明。",
+          "implication": "11月12-13日のMicrosoft 365世界規模障害（暫定報告ではネットワーク側の潜在バグが原因）を受け、ネットワーク異常を早く見つける仕組みに上級人員を当てている可能性を示す。求人は採用・決定ではない。",
+          "verdict": "medium",
+          "highlight": false,
+          "sourceLabel": "Microsoft Careers（Principal Software Engineer、投稿日はボードに表示なし）",
+          "sourceUrl": "https://apply.careers.microsoft.com/careers/job/1970393557023190",
+          "sourceDate": null,
+          "location": null,
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        },
+        {
+          "id": 28,
+          "runId": 12,
+          "kind": "job",
+          "title": "Agent 365基盤のゲートウェイチームの増員募集",
+          "detail": "Senior Software Engineer（米国・レドモンド、Agent 365 Foundationチーム）。クラスターに届く全リクエストが通るゲートウェイとエッジを担当し、現在の重点はDynamics 365とPower Platformの通信の入口。Agent 365自体は発表済み製品で、この求人は公開情報。投稿日はボードに表示なし。",
+          "implication": "AIエージェントの通信がゲートウェイ層を通る量が増え、そこを独立した重点領域として強化している可能性を示唆する。未発表の動きではない。",
+          "verdict": "reference",
+          "highlight": false,
+          "sourceLabel": "Microsoft Careers（Senior Software Engineer, Agent 365）",
+          "sourceUrl": "https://apply.careers.microsoft.com/careers/job/1970393556960283",
+          "sourceDate": null,
+          "location": "米国・レドモンド",
+          "starred": false,
+          "reviewed": false,
+          "userNote": ""
+        }
+      ]
     }
   ]
 }
